@@ -1,0 +1,29 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: white;
+  margin: 6px 4px;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.todoItem > p {
+  flex: 1;
+}
+
+.todoItem--done {
+  text-decoration: line-through;
+  color: rgb(76, 0, 0);
+}
+
+.delete-btn {
+  border: none;
+  margin-right: 10px;
+  background-color: rgb(254, 254, 254);
+  border-radius: 8px;
+}
+
+.delete-btn:hover {
+  background-color: rgb(231, 234, 237);
+}
